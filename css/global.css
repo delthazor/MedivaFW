@@ -1,0 +1,36 @@
+body  { background-color: rgb(204,204,204); text-align: center; font-family: Arial,Verdana,sans-serif; }
+
+div { display: inline-block; vertical-align: top; }
+div.container { width: 1000px; text-align: center; border: 8px ridge rgb(255,51,51); }
+
+div.errorlist { color: red;  padding: 25px !important; }
+
+div.shadowbox { border-radius: 15px;  box-shadow: 8px 8px 3px rgb(119,119,119);
+               background-color: rgb(224,224,224); padding: 15px; margin: 5px; margin-top: 25px; }
+
+div.login { width: 300px; }
+div.label { display: block; margin: 2px; }
+
+div.main { margin: 5px; width: 700px }
+
+div.menu { text-align: right; margin-right: 20px; width: 200px; }
+div.menu ul.menu { list-style-type: none; }
+div.menu ul.menu li { text-align: right; display: block; margin: 5px; }
+div.menu ul.menu li button { font-size: 18px;}
+div.menu ul.menu li.divider { background-color: white; margin-bottom: 8px; height: 3px; }
+
+button.menubutton { background-color: transparent; color: black; font-size: 14px; border: none; }
+button.menubutton:hover { color: darkgreen; border-bottom: 2px solid darkreen; border-radius: 15px; }
+button.menubutton:active {  }
+
+table.navilist { border: 1px solid black; }
+table.navilist td { width: 100px; padding: 3px; border: 1px solid black; text-align: center; vertical-align: middle; }
+
+img.navisprite { width: 150px; }
+
+p { text-align: justify; margin: 5px; padding: 5px; }
+
+hr { width: 80%; color: black; }
+
+h1 { font-size: 18pt; font-weight: bold; margin-bottom: 15px; margin-top: 5px; text-align: center; }
+h2 { font-size: 16pt; font-weight: bold; margin-bottom: 5px; margin-top: 10px; text-align: center; }
