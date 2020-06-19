@@ -15,7 +15,7 @@ function getContent($content)
   {
     if($config['debug'])
     {
-      echo '<br>Loaed: '.$content.'<br>';
+      echo '<br>Loaded: '.$content.'<br>';
     }
     return (file_get_contents($fpath));
   }
